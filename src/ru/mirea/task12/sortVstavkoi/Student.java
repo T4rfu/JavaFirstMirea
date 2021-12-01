@@ -14,7 +14,7 @@ public class Student
     }
 
     public void insertionSort() {
-        for (int left = 0; left < idNumber.length; left++) {
+        for (int left = 1; left < idNumber.length; left++) {
             int value = idNumber[left];
             int i = left - 1;
             for (; i >= 0; i--) {

@@ -46,7 +46,7 @@ public class SortingStudentsByGPA implements ru.mirea.task12.whoami.Comparator
     {
         SortingStudentsByGPA markList = new SortingStudentsByGPA();
         int[] input = {4,2,6,7,3};
-        markList.quickSort(input,0,4);
+        markList.quickSort(input,0,8);
         markList.turn(input);
         System.out.println(Arrays.toString(input));
     }
