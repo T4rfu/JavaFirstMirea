@@ -48,10 +48,9 @@ public class MergeSortClass
     public static void main(String[]args)
     {
         MergeSortClass  testObj = new MergeSortClass();
-        int[] firstList = {1,4,3,7};
+        int[] firstList = {7,1,5,4};
         int[] secondList = {9,3,8,2};
         int[] output = testObj.combine(firstList, secondList);
-        testObj.mergeSort(firstList,4);
         System.out.println(Arrays.toString(output));
     }
 }
