@@ -14,3 +14,4 @@
 ## Дополнительные материалы
 
 [Паттерн Стратегия](https://javarush.ru/groups/posts/2271-pattern-proektirovanija-strategija)
+Ы
